@@ -6,13 +6,81 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="356dp"
+        android:layout_height="276dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/squears_figures" />
+
+    <ImageView
+        android:id="@+id/ivCircle"
+        android:layout_width="85dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivImage"
+        app:srcCompat="@drawable/circle" />
+
+    <Button
+        android:id="@+id/btCircle"
+        android:layout_width="245dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="28dp"
+        android:shadowColor="#A88417"
+        android:text="Computing the area of the circle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toEndOf="@+id/ivCircle"
+        app:layout_constraintTop_toBottomOf="@+id/ivImage" />
+
+    <ImageView
+        android:id="@+id/ivSquear"
+        android:layout_width="85dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivCircle"
+        app:srcCompat="@drawable/squear" />
+
+    <Button
+        android:id="@+id/btSquear"
+        android:layout_width="245dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="12dp"
+        android:text="Square area calculation"
+        app:layout_constraintEnd_toEndOf="@+id/btCircle"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btCircle"
+        app:layout_constraintTop_toBottomOf="@+id/btCircle" />
+
+    <ImageView
+        android:id="@+id/ivRectangle"
+        android:layout_width="85dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivSquear"
+        app:srcCompat="@drawable/rectangle" />
+
+    <Button
+        android:id="@+id/btRectangle"
+        android:layout_width="245dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="16dp"
+        android:text="Calculating the area of a rectangle"
+        app:layout_constraintEnd_toEndOf="@+id/btSquear"
+        app:layout_constraintStart_toStartOf="@+id/btSquear"
+        app:layout_constraintTop_toBottomOf="@+id/btSquear" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
