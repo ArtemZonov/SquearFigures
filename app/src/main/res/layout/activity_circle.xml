@@ -8,7 +8,7 @@
     tools:context=".CircleActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvActCirc"
         android:layout_width="334dp"
         android:layout_height="43dp"
         android:layout_marginTop="32dp"
@@ -17,10 +17,10 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/ivActCirc" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/etActCirc"
         android:layout_width="329dp"
         android:layout_height="52dp"
         android:layout_marginTop="32dp"
@@ -30,21 +30,21 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/tvActCirc" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btActCirc"
         android:layout_width="329dp"
         android:layout_height="51dp"
         android:layout_marginTop="32dp"
         android:backgroundTint="#067381"
         android:text="Computing the area of the circle"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintEnd_toEndOf="@+id/etActCirc"
+        app:layout_constraintStart_toStartOf="@+id/etActCirc"
+        app:layout_constraintTop_toBottomOf="@+id/etActCirc" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/ivActCirc"
         android:layout_width="359dp"
         android:layout_height="259dp"
         android:layout_marginTop="32dp"

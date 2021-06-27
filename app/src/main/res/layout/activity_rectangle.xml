@@ -8,7 +8,7 @@
     tools:context=".SquearActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/ivActRec"
         android:layout_width="359dp"
         android:layout_height="259dp"
         android:layout_marginTop="32dp"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/rectangle" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvActRec"
         android:layout_width="334dp"
         android:layout_height="43dp"
         android:layout_marginTop="32dp"
@@ -27,10 +27,10 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/ivActRec" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/etActRecWidth"
         android:layout_width="329dp"
         android:layout_height="52dp"
         android:layout_marginTop="32dp"
@@ -40,21 +40,21 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/tvActRec" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btActRec"
         android:layout_width="329dp"
         android:layout_height="60dp"
         android:layout_marginTop="32dp"
         android:backgroundTint="#067381"
         android:text="Calculating the area of a rectangle"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName3"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintEnd_toEndOf="@+id/etActRecLength"
+        app:layout_constraintStart_toStartOf="@+id/etActRecLength"
+        app:layout_constraintTop_toBottomOf="@+id/etActRecLength" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/etActRecLength"
         android:layout_width="329dp"
         android:layout_height="52dp"
         android:layout_marginTop="32dp"
@@ -62,8 +62,8 @@
         android:gravity="center"
         android:hint="enter the length of the face"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintEnd_toEndOf="@+id/etActRecWidth"
+        app:layout_constraintStart_toStartOf="@+id/etActRecWidth"
+        app:layout_constraintTop_toBottomOf="@+id/etActRecWidth" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
