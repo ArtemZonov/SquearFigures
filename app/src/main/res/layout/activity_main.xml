@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#BD9620"
     tools:context=".MainActivity">
 
     <ImageView
@@ -33,6 +34,7 @@
         android:layout_width="245dp"
         android:layout_height="73dp"
         android:layout_marginTop="28dp"
+        android:backgroundTint="#067381"
         android:shadowColor="#A88417"
         android:text="Computing the area of the circle"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,6 +58,7 @@
         android:layout_width="245dp"
         android:layout_height="73dp"
         android:layout_marginTop="12dp"
+        android:backgroundTint="#067381"
         android:text="Square area calculation"
         app:layout_constraintEnd_toEndOf="@+id/btCircle"
         app:layout_constraintHorizontal_bias="0.0"
@@ -78,6 +81,7 @@
         android:layout_width="245dp"
         android:layout_height="73dp"
         android:layout_marginTop="16dp"
+        android:backgroundTint="#067381"
         android:text="Calculating the area of a rectangle"
         app:layout_constraintEnd_toEndOf="@+id/btSquear"
         app:layout_constraintStart_toStartOf="@+id/btSquear"
