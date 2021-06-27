@@ -12,7 +12,7 @@ class SquearActivity : AppCompatActivity() {
         btActSq.setOnClickListener {
            var length : Double = etActSq.getText().toString().toDouble()
             var sqr : Double = length * length
-            tvActSq.text = "Area of squear :" + sqr.toDouble()
+            tvActSq.text = "Area of squear : " + sqr.toDouble()
         }
     }
 }

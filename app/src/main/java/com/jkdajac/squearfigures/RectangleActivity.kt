@@ -14,7 +14,7 @@ class RectangleActivity : AppCompatActivity() {
             var length : Double = etActRecLength.getText().toString().toDouble()
             var width : Double = etActRecWidth.getText().toString().toDouble()
             var rect : Double = length * width
-            tvActRec.text = "Area of rectangle :" + rect.toDouble()
+            tvActRec.text = "Area of rectangle : " + rect.toDouble()
         }
     }
 }
