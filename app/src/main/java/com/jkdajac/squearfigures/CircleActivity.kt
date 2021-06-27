@@ -6,7 +6,7 @@ import kotlinx.android.synthetic.main.activity_circle.*
 
 class CircleActivity : AppCompatActivity() {
 
-    val Pi = 3.141529
+    val Pi = 3.14
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,7 +16,7 @@ class CircleActivity : AppCompatActivity() {
         btActCirc.setOnClickListener {
             var rad = etActCirc.getText().toString().toInt()
             var squear: Double = 2*Pi * (rad * rad)
-            tvActCirc.text = squear.toString()
+            tvActCirc.text = "Area of circle : " + squear.toString()
         }
 
     }
