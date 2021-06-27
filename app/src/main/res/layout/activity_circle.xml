@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="с"
+    android:background="#BD9620"
     tools:context=".CircleActivity">
 
     <TextView
@@ -13,6 +13,8 @@
         android:layout_height="43dp"
         android:layout_marginTop="32dp"
         android:gravity="center"
+        android:textColor="#090909"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
